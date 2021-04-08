@@ -1,0 +1,11 @@
+#prices .price{
+     width: 50px;
+ }
+
+#prices .currency{
+    max-width: 70px;
+}
+
+#prices .price_group{
+    width: 170px;
+}

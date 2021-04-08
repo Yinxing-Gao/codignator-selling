@@ -1,0 +1,12 @@
+#telegram_list table th,
+#telegram_list table td {
+    font-size: 11px;
+}
+
+#telegram_list table ul {
+    padding-left: 15px;
+}
+
+.telegram_code, .telegram_go_to_bot {
+    display: none;
+}

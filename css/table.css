@@ -1,0 +1,113 @@
+table thead th,
+.table thead th,
+table tbody td,
+.table tbody td {
+    font-size: 11px;
+}
+
+table .icon {
+    width: 25px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+table .icon:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: -30%;
+    top: 100%;
+    z-index: 1;
+    background: #f7f7f7;
+    font-size: 11px;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    table,
+    .table {
+        width: 90%;
+    }
+
+    table thead,
+    .table thead {
+        display: none;
+    }
+
+    table tbody tr,
+    .table tbody tr {
+        display: block;
+        border: 1px solid #91c6c5;
+        border-bottom: 1px solid #91c6c5;
+        margin-bottom: 10px;
+    }
+
+    table td,
+    .table td {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+
+    .table td::before,
+    table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        margin-right: 20px;
+    }
+
+    .table td select,
+    .table td input,
+    table td select,
+    table td input {
+        width: 50% !important;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    table,
+    .table {
+        width: 90%;
+    }
+
+    table thead,
+    .table thead {
+        display: none;
+    }
+
+    table tbody tr,
+    .table tbody tr {
+        display: block;
+        border: 1px solid #91c6c5;
+        border-bottom: 1px solid #91c6c5;
+        margin-bottom: 10px;
+    }
+
+    table td,
+    .table td {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+
+    .table td::before,
+    table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        margin-right: 20px;
+    }
+
+    .table td select,
+    .table td input,
+    table td select,
+    table td input {
+        width: 50% !important;
+    }
+}

@@ -1,0 +1,369 @@
+/************************************************ application_add  ****************************************************/
+#application_add label {
+    display: block;
+    margin: 10px 0 3px;
+}
+
+#application_add input,
+#application_add textarea {
+    margin-bottom: 10px;
+}
+
+#application_add .uploaded_file {
+    position: relative;
+}
+
+#application_add .uploaded_file .ajax_loader {
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+    /* display: none; */
+    position: absolute;
+    left: 49%;
+}
+
+#application_add .uploaded_file > span {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+
+#application_add .uploaded_file > span .delete_uploaded_file {
+    float: right;
+    cursor: pointer;
+    width: 12px;
+    vertical-align: bottom;
+    margin-top: 2px;
+}
+
+#application_add label .note {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+#application_add [name=project_id] + .select2-container,
+#application_add [name=article_id] + .select2-container,
+#application_add [name=contractor_id] + .select2-container,
+#application_add [name=authority_id] + .select2-container {
+    display: block;
+    width: 100% !important;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#application_add label span {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+#application_add label [type=radio] {
+    display: inline-block;
+    width: 25px;
+    vertical-align: top;
+}
+
+/************************************************ application_list ****************************************************/
+#application_list table td,
+#application_list table th {
+    font-size: 11px;
+}
+
+#application_list button,
+#application_list .btn {
+    font-size: 11px;
+    cursor: pointer;
+}
+
+#application_list .type_btns {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#application_list .filter_btns {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+#application_list .costs_filters {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+#application_list .costs_filters .form-check {
+    display: inline-block;
+}
+
+#application_list .action_btns {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#application_list .filter_btns .ready_to_pay {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#application_list .filter_btns .form-check {
+    display: inline-block;
+}
+
+.fixed_menu {
+    background-color: #f8f9fa;
+    width: 100%;
+}
+
+.fixed_menu.fixed {
+    background-color: #f8f9fa;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid #ccc;
+    top: 0;
+    padding-top: 15px;
+    left: 0;
+}
+
+.static_menu {
+    display: block;
+}
+
+#application_list #numbers_panel {
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid;
+    z-index: 1;
+    padding: 10px;
+    right: 4%;
+    font-size: 13px;
+    float: right;
+    display: inline-block;
+    margin-top: -10px;
+}
+
+#application_list #numbers_panel div {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#application_list #numbers_panel div .badge {
+    padding: 4px 5px;
+    font-size: 14px;
+}
+
+#application_list .panel {
+    display: none;
+}
+
+#application_list #panel_all {
+    display: block;
+}
+
+#application_list .order_file {
+    display: block;
+    padding: 0 0 10px;
+}
+
+.TOV_message {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+.app_info {
+    overflow: auto;
+    height: 100%;
+    font-size: 12px;
+}
+
+.app_info table {
+    min-width: 100%;
+    width: 1140px;
+}
+
+.app_info table td,
+.app_info table th {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 15px;
+    border: 1px solid #000000;
+    max-width: 500px;
+    overflow-wrap: break-word; /* не поддерживает IE, Firefox; является копией word-wrap */
+    word-wrap: break-word;
+    word-break: break-all; /* не поддерживает Opera12.14, значение keep-all не поддерживается IE, Chrome */
+    line-break: normal; /* нет поддержки для русского языка */
+    -webkit-hyphens: auto;
+    ​-ms-hyphens: auto;
+    hyphens: auto; /* значение auto не поддерживается Chrome */
+    ​width: 50%;
+}
+
+.date_filters {
+    display: inline-block;
+}
+
+.date_filters > div {
+    display: inline-block;
+}
+
+.date_filters label {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.date_filters input {
+    display: inline-block;
+    max-width: 131px;
+    height: 29px;
+    font-size: 11px;
+}
+
+#filter_by_date {
+    margin-left: 15px;
+}
+
+#application_add #urgently, #application_add #fixed {
+    width: 15px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 0;
+    height: 21px;
+    margin-right: 10px;
+}
+
+#application_list .product_td {
+    position: relative;
+    padding: 10px 15px 10px 10px;
+}
+
+#application_list .add_director_comment {
+    position: absolute;
+    top: 0;
+    right: -4px;
+    width: 20px;
+    cursor: pointer;
+}
+
+#application_list .director_comment {
+    font-style: italic;
+    font-size: 11px;
+}
+
+#application_list .director_comment hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#application_list .director_comment strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#application_list .amount_to_pay {
+    display: block;
+    max-width: 85px;
+    max-height: 25px;
+    margin-top: 5px;
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.director_comment_popup textarea {
+    margin-bottom: 15px;
+    resize: none;
+    height: 115px;
+}
+
+#search_app_id {
+    width: 115px;
+    flex: none;
+    margin-bottom: 15px;
+}
+
+#search_app_keywords {
+    width: 300px;
+    flex: none;
+    margin-bottom: 15px;
+}
+
+#search_app_id + .select2-container,
+#search_app_keywords + .select2-container {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.select2-container--default .select2-selection--single {
+    border: none !important;
+}
+
+.select2-container--default .select2-selection--single:focus {
+    outline: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 5px !important;
+}
+
+#search_result_table .close_app {
+    display: block;
+    width: 24px;
+    text-align: center;
+    cursor: pointer;
+    height: 24px;
+    line-height: 19px;
+    background: #fff;
+    color: #3166de;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#search_result_table .close_search_table {
+    display: block;
+    width: 24px;
+    text-align: center;
+    cursor: pointer;
+    height: 24px;
+    line-height: 19px;
+    color: #3166de;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#application_list select[name="action"] {
+    width: 150px;
+    height: 25px;
+    margin-top: 5px;
+}

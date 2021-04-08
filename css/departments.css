@@ -1,0 +1,61 @@
+/************************************************* templates **********************************************************/
+#department_list table td,
+#department_list table th {
+    font-size: 11px;
+}
+
+#department_list table td input[type=checkbox] {
+    width: 10px;
+}
+
+#department_list table td [name=modules] + .select2.select2-container {
+    width: 100% !important;
+}
+
+#department_list table td [name=modules] + .select2.select2-container > .selection > .select2-selection.select2-selection--multiple {
+    padding: 0 10px;
+}
+
+#department_list table td [name=modules] + .select2.select2-container > .selection > .select2-selection.select2-selection--multiple > ul {
+    padding: 0 0 5px;
+    width: 95%;
+}
+
+#department_list table td [name=modules] + .select2.select2-container .select2-search.select2-search--inline {
+    float: none;
+}
+
+#department_list form input[type=checkbox] {
+    width: 10px;
+}
+
+#department_list form #modules + .select2.select2-container {
+    width: 100% !important;
+}
+
+#department_list form #modules + .select2.select2-container > .selection > .select2-selection.select2-selection--multiple {
+    padding: 0 10px;
+}
+
+#department_list form #modules + .select2.select2-container > .selection > .select2-selection.select2-selection--multiple > ul {
+    padding: 0 0 5px;
+    width: 95%;
+}
+
+#department_list form #modules + .select2.select2-container .select2-search.select2-search--inline {
+    float: none;
+}
+
+#department_list [name=is_shown] {
+    width: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#department_list label {
+    line-height: 25px;
+}
+
+#department_list .delete_department {
+    cursor: pointer;
+}

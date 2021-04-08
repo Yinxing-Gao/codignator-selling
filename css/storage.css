@@ -1,0 +1,189 @@
+/*************************** storage list ************************************/
+.title_div {
+    border: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#storage_list table td,
+#storage_list table th {
+    font-size: 13px;
+    border: none;
+    /* padding: 0px; */
+}
+
+#storage_list table .delete_storage,
+#storage_list table .edit_storage {
+    cursor: pointer;
+}
+
+#storage_item_list .action_btns,
+#storage_item_list .filter_btns {
+    display: inline-block;
+}
+
+.delete_storage_item {
+    cursor: pointer;
+}
+
+.add_position {
+    font-size: 12px;
+    float: right;
+    display: block;
+    width: 150px;
+}
+
+.storage_action_td {
+    display: flex;
+    padding: 0px;
+    float: right;
+
+}
+
+.storage_action_td a {
+    width: 35px;
+    border-radius: 5px;
+    display: block;
+    color: #54a041;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.storage_action_td a:hover {
+    background-color: #5eda6b;
+    color: #000;
+}
+
+.storage_table_tr {
+    border-top: 1px solid #dee2e6;
+}
+
+.delete_storage_name {
+    cursor: pointer;
+}
+
+.edit_storage_name {
+    cursor: pointer;
+}
+
+.done_editing_storage_name {
+    display: none;
+    cursor: pointer;
+}
+
+#storage_item_list .amount {
+    background-color: #f1f1f1;
+}
+
+#storage_item_list table th,
+#storage_item_list table td {
+    font-size: 51px;
+}
+
+#storage_application_list table th,
+#storage_application_list table td {
+    font-size: 11px;
+}
+
+#storage_application_list button,
+#storage_application_list .btn {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#storage_application_list .action_btns {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#storage_application_list .type_btns {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#storage_application_list .items_td {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#storage_application_list .items_td table {
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+
+
+#storage_application_list .items_td table th {
+    padding: 0 10px;
+}
+
+table {
+    margin-top: 15px;
+}
+
+td, th {
+    padding: 10px;
+}
+
+#storage_name_list table td,
+#storage_name_list table th {
+    font-size: 11px;
+}
+
+#storage_sidenav .contacts_block .contact:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: -30%;
+    top: 100%;
+    z-index: 1;
+    background: #f7f7f7;
+    font-size: 11px;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+
+#storage_sidenav .contacts_block .contact:first-child,
+#storage_sidenav .contacts_block .contact:last-child {
+    margin: 0;
+}
+
+#storage_sidenav .storage_sidenav_content {
+    padding: 10px 30px;
+}
+
+#storage_sidenav .contacts_block .contact {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+    display: inline-block;
+    width: 48px;
+    position: relative;
+}
+
+#storage_sidenav .contacts_block .contact img {
+    width: 100%;
+}
+#storage_sidenav{
+    border-left: 1px solid #ddd;
+}
+
+#storage_sidenav .close_nav_btn{
+    left: -30px;
+}
+
+.add_storage_item_price_amount {
+    display: flex;
+}
+.add_storage_item_price_amount input {
+    width: 99%;
+}
+.add_storage_item_amount input {
+    float: right;
+}

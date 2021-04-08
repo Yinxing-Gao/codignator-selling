@@ -1,0 +1,246 @@
+/************************************************ operation_list ***************************************************************/
+#operation_list h2 {
+    margin: 15px 0 25px;
+}
+
+#operation_list .operation_amount {
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 9px 5px;
+    color: #fff;
+    min-width: 100px;
+}
+
+#operation_list .operation_amount.self {
+    padding: 3px 5px;
+}
+
+#operation_list .operation_contractor {
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 10px;
+    color: #fff;
+    background-color: blue;
+}
+
+@media  (max-width: 767px) {
+    #operation_list tr .filter_td {
+        max-width: none !important;
+    }
+}
+
+/************************************************ template_list ***************************************************************/
+#template_list .operation_amount {
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 9px 5px;
+    color: #fff;
+    min-width: 100px;
+}
+
+.operation_table_div table td,
+.operation_table_div table th {
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+.operation_table_div table [type=checkbox] {
+    width: 15px;
+    cursor: pointer;
+}
+
+.operation_table_div table .perform {
+    cursor: pointer;
+}
+
+.operation_table_div .report_tr {
+    background-color: #ececec;
+}
+
+.operation_table_div .report_tr td {
+    font-weight: bold;
+}
+
+.delete_operation,
+.edit_operation,
+.delete_template,
+.edit_template {
+    cursor: pointer;
+}
+
+.storage_names_for_purchase {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.storage_names_for_purchase:hover {
+    background-color: #eaeaea;
+}
+
+.storage_names_for_purchase_block {
+    height: 550px;
+    overflow: auto;
+    border: 2px solid #d2d2d2;
+    padding: 5px;
+}
+
+.storage_purchase_table_block {
+    height: 510px;
+    overflow: auto;
+}
+
+.storage_purchase_table_block [name="price"] {
+    width: 100px;
+}
+
+.storage_purchase_table_block [name="amount"] {
+    width: 100px;
+}
+
+.storage_purchase_table_block .delete_purchase_from_extence {
+    cursor: pointer;
+}
+
+#add_new_contractor {
+    width: 100%;
+}
+
+#app + .select2-container,
+#contractor_id + .select2-container {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/*.select2-container--default .select2-selection--single {*/
+/*    border: none !important;*/
+/*}*/
+
+/*.select2-container--default .select2-selection--single:focus {*/
+/*    outline: 0;*/
+/*}*/
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    /*top: 5px !important;*/
+}
+
+.operation_list .filter_btns {
+    width: 100%;
+}
+
+.operation_list .filter_btns #search {
+    float: right;
+}
+
+
+.operation_tr.hidden {
+    display: none;
+}
+
+.operation_tr .article_id {
+    width: 150px;
+}
+
+td.found {
+    background-color: yellow;
+}
+
+.color_block {
+    display: inline-block;
+}
+
+.color_block .color {
+    display: inline-block;
+    width: 50px;
+    color: #fff;
+    line-height: 22px;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.color_block span {
+    margin-right: 10px;
+}
+
+#operation_list .operation_department_id {
+    width: 150px;
+}
+
+#operation_list .filter_td {
+    max-width: 200px;
+}
+
+#template_list table th,
+#template_list table td {
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+/************************************* quick ***************************************************************/
+#operation_quick .template_string {
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: bottom;
+    color: #fff;
+    min-width: 100px;
+    margin: 10px;
+    padding: 10px 20px;
+    width: auto;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#operation_quick .template_string.income {
+    color: green;
+    border: 2px solid green;
+}
+
+#operation_quick .template_string.expense {
+    color: red;
+    border: 2px solid red;
+}
+
+#operation_quick h4 {
+    margin-top: 15px;
+}
+
+#operation_quick h6 {
+    margin-top: 15px;
+}
+
+/************************************* plan - fact ***************************************************************/
+/*#plan_fact_list table th,*/
+/*#plan_fact_list table td {*/
+/*    font-size: 11px;*/
+/*    vertical-align: middle;*/
+/*    max-width: 20;*/
+/*}*/
+
+#plan_fact_list table .article_row {
+    background-color: #ececec;
+}
+
+#plan_fact_list table .divide_cell {
+    background-color: #ececec;
+}

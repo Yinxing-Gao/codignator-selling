@@ -1,0 +1,55 @@
+#registration {
+    padding: 50px;
+}
+
+#registration .welcome-message {
+    font-size: 16px;
+    text-align: center;
+}
+
+#registration .social_button {
+    cursor: pointer;
+    padding: 8px 8px;
+    background: #404DFF;
+    color: #fff;
+    text-align: center;
+}
+
+#registration .social_button:hover {
+    text-decoration: none;
+}
+
+#registration label {
+    font-size: 14px;
+}
+
+#registration input,
+#registration .social_button {
+    font-size: 14px;
+    height: 40px;
+}
+
+#registration input.error {
+    border: 1px solid red;
+}
+
+#registration span.error {
+    display: block;
+    color: red;
+}
+
+#registration .social_button {
+    padding: 8px 8px;
+}
+
+#registration .btn-reg {
+    font-size: 14px;
+    height: 40px;
+    background-color: green;
+    cursor: pointer;
+    margin-bottom: 50px;
+    width: 100%;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 3px;
+}

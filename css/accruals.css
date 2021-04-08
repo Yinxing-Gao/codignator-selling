@@ -1,0 +1,44 @@
+#accrual_list table td,
+#accrual_list table th {
+    font-size: 11px;
+}
+
+#accrual_list .delete_contractor {
+    cursor: pointer;
+}
+
+.color_block{
+    display: inline-block;
+}
+.color_block .color{
+    display: inline-block;
+    width: 50px;
+    color: #fff;
+    line-height: 22px;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.color_block span{
+    margin-right: 10px;
+}
+
+tr.article td{
+    background-color: #ececec;
+    font-weight: bold;
+}
+
+tr.article.income td{
+    background-color: #b0ecb3;
+}
+
+ .accrual_amount {
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 5px 5px;
+    color: #fff;
+    min-width: 100px;
+}

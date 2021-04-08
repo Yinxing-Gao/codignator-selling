@@ -1,0 +1,51 @@
+#position_list table td,
+#position_list table th {
+    font-size: 11px;
+}
+
+#position_list table td input[type=checkbox] {
+    width: 10px;
+}
+
+#position_list table td .select2-container .select2-search--inline {
+    padding-left: 5px;
+}
+
+#position_list .add_articles_from_template {
+    font-size: 11px;
+}
+
+#position_list ul {
+    padding-left: 10px;
+}
+
+#position_list .delete_position {
+    cursor: pointer;
+}
+
+#position_list .icon {
+    width: 25px;
+    cursor: pointer;
+}
+
+#position_list .icon:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: -30%;
+    top: 100%;
+    z-index: 1;
+    background: #f7f7f7;
+    font-size: 11px;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+#org_chart {
+    width: 100%;
+    height: 100%;
+}
+
+.lead_sidenav_content {
+    padding: 20px;
+}

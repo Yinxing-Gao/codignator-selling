@@ -1,0 +1,359 @@
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    header .logo img {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    header ul#top-menu > li > a {
+        width: 92px;
+        font-size: 12px;
+        max-height: 62px;
+    }
+
+    .login_div > span:first-child {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    header .top_menu_div {
+        display: none;
+    }
+
+    .mobile_menu {
+        display: block;
+    }
+
+    .open_operation_sidenav {
+        position: fixed;
+        bottom: 40px;
+        right: 30px;
+        width: 60px;
+        padding: 15px;
+        background: #d0d0d0;
+        border-radius: 50%;
+    }
+
+    .open_operation_sidenav img {
+        width: 100%;
+    }
+
+    .open_project_sidenav {
+        position: fixed;
+        bottom: 130px;
+        right: 30px;
+        width: 60px;
+        padding: 15px;
+        background: #d0d0d0;
+        border-radius: 50%;
+    }
+
+    .open_project_sidenav img {
+        width: 100%;
+    }
+
+    header .navbar {
+        height: 50px;
+    }
+
+    .open_desktop_sidenav {
+        width: 40px;
+        padding: 10px 10px;
+    }
+
+    .open_desktop_sidenav img {
+        width: 100%;
+    }
+
+    header .logo_new {
+        margin: 7px auto;
+    }
+
+    .open_accrual_sidenav {
+        width: 40px;
+        margin-left: -10px;
+    }
+
+    .open_accrual_sidenav img {
+        width: 100%;
+    }
+
+    header .login_div {
+        padding: 12px 15px;
+    }
+
+    #operation_sidenav .close_nav_btn {
+        top: 15px;
+        width: 30px;
+    }
+
+    #operation_sidenav .close_nav_btn img {
+        width: 100%;
+    }
+
+    #project_sidenav .close_nav_btn {
+        top: 15px;
+        width: 30px;
+    }
+
+    #project_sidenav .close_nav_btn img {
+        width: 100%;
+    }
+
+    #accruals_sidenav .close_nav_btn {
+        top: 15px;
+        width: 30px;
+    }
+
+    #accruals_sidenav .close_nav_btn img {
+        width: 100%;
+    }
+
+    #desktop_sidenav .close_nav_btn {
+        top: 15px;
+        width: 30px;
+    }
+
+    .open_calculator_popup, .open_telegram_chat {
+        display: none;
+    }
+
+    .login_div > span:first-child {
+        display: none;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .top_menu_div {
+        display: none;
+    }
+
+    .mobile_menu {
+        display: block;
+    }
+
+    .top_mobile_menu {
+
+    }
+
+    #mobile-top-menu {
+        display: none;
+    }
+
+    .login_div > span:first-child {
+        display: none;
+    }
+
+
+    .top_mobile_menu > div {
+        width: 89px;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #e2e2e2;
+        height: 45px;
+        padding: 10px;
+        vertical-align: top;
+        margin: 5px 0px;
+        text-transform: uppercase;
+        font-style: normal;
+        letter-spacing: 0;
+        text-decoration: none;
+        background: #eae9e954;
+        background-size: contain;
+        color: #333333;
+        line-height: 16px;
+        float: left;
+        border-right: 1px solid #cecece;
+        border-left: 1px solid #e8e8e8;
+        font-weight: bold;
+        font-size: 13px;
+        -moz-box-shadow: 0 1px 3px #555;
+        -webkit-box-shadow: 0 1px 3px #555;
+        text-shadow: 0 1px 1px #fff;
+    }
+
+    .top_mobile_menu > div > img {
+        width: 20px;
+    }
+
+
+    .logo_div {
+        text-align: left;
+    }
+
+    .logo_div img {
+        width: 30%;
+        text-align: left;
+    }
+
+    #application_list button, #application_list .btn {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    #application_list .panel {
+        width: 450px;
+        overflow-x: auto;
+    }
+
+    #application_list #numbers_panel {
+        width: 100%;
+    }
+
+    .operation_table_div {
+        overflow-x: auto;
+    }
+
+    .storage_table_div {
+        overflow-x: auto;
+    }
+
+    .open_operation_sidenav {
+        position: fixed;
+        bottom: 40px;
+        right: 30px;
+        width: 60px;
+        padding: 5px;
+        background: #3092c9;
+        border-radius: 50%;
+    }
+
+    .open_operation_sidenav img {
+        width: 100%;
+    }
+
+    .open_project_sidenav {
+        position: fixed;
+        bottom: 130px;
+        right: 30px;
+        width: 60px;
+        padding: 5px;
+        background: #3092c9;
+        border-radius: 50%;
+    }
+
+    .open_project_sidenav img {
+        width: 100%;
+    }
+
+    .open_task_sidenav {
+        position: fixed;
+        bottom: 220px;
+        right: 30px;
+        width: 60px;
+        padding: 5px;
+        background: #3092c9;
+        border-radius: 50%;
+    }
+
+    .open_task_sidenav img {
+        width: 100%;
+    }
+
+    .open_accrual_sidenav {
+        position: fixed;
+        bottom: 310px;
+        right: 30px;
+        width: 60px;
+        padding: 5px;
+        background: #3092c9;
+        border-radius: 50%;
+    }
+
+    .open_accrual_sidenav img {
+        width: 100%;
+    }
+
+    header .navbar {
+        height: 50px;
+        overflow: hidden;
+        border-bottom: 1px solid #91c6c5;
+    }
+
+    .open_desktop_sidenav {
+        width: 50px;
+        padding: 0 3px;
+    }
+
+    .open_desktop_sidenav img {
+        width: 100%;
+    }
+
+    header .logo_new {
+        margin: 3px 0 7px 20px;
+        width: 125px;
+    }
+
+    /*.open_accrual_sidenav {*/
+    /*    width: 40px;*/
+    /*    margin-left: -10px;*/
+    /*}*/
+    .open_accrual_sidenav img {
+        width: 100%;
+    }
+
+    header .login_div {
+        padding: 12px 15px;
+    }
+
+    #operation_sidenav .close_nav_btn {
+        top: 15px;
+        width: 30px;
+    }
+
+    #operation_sidenav .close_nav_btn img {
+        width: 100%;
+    }
+
+    #project_sidenav .close_nav_btn {
+        top: 15px;
+        width: 30px;
+    }
+
+    #project_sidenav .close_nav_btn img {
+        width: 100%;
+    }
+
+    #accruals_sidenav .close_nav_btn {
+        top: 15px;
+        width: 30px;
+    }
+
+    #accruals_sidenav .close_nav_btn img {
+        width: 100%;
+    }
+
+    #desktop_sidenav .close_nav_btn {
+        top: 15px;
+        width: 30px;
+    }
+
+    .open_calculator_popup, .open_telegram_chat {
+        display: none;
+    }
+
+    .title_div_icons {
+        padding: 0 0 0 0 !important;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .title_div .title_div_icons .title_div_icon {
+        width: 40px;
+    }
+
+    footer {
+        height: 400px !important;
+    }
+}
+
+/*@media screen and (max-height: 450px) {*/
+/*.sidenav {*/
+/*    padding-top: 15px;*/
+/*}*/
+
+/*.sidenav a {*/
+/*    font-size: 18px;*/
+/*}*/
+/*}*/

@@ -1,0 +1,21 @@
+
+thead th,
+tbody td {
+    font-size: 11px;
+}
+
+thead th {
+    font-weight: normal;
+}
+
+tbody .bonus {
+    color: green;
+}
+
+tbody .fine {
+    color: red;
+}
+
+tbody [type=number] {
+    width: 100px
+}

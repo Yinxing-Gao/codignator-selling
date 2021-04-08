@@ -1,0 +1,126 @@
+
+#production_process table {
+    margin: 15px auto;
+}
+
+#production_process table img {
+    cursor: pointer;
+}
+
+#production_process td, #production_process th {
+    padding: 10px;
+}
+
+#production_process #progressbar {
+    margin: 10px 0 10px;
+    height: 30px;
+}
+
+#production_process #progressbar .ui-progressbar-value {
+    background-color: #013bff;
+    margin: 0;
+}
+
+.ui-progressbar {
+    position: relative;
+}
+
+.progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+    font-size: 16px;
+}
+
+.done_editing_specification_name {
+    display: none;
+    cursor: pointer;
+}
+
+.edit_specification_name {
+    cursor: pointer;
+}
+
+.delete_specification_name {
+    cursor: pointer;
+}
+
+.add_to_specification {
+    padding: 5px;
+    font-size: 13px;
+    float: right;
+}
+
+.missing_info {
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    text-align: left;
+}
+
+.missing_info .btn {
+    font-size: 12px;
+    float: right;
+    margin-top: -7px;
+    cursor: pointer;
+}
+
+.storage_select, .storage_selects, .specification_select {
+    margin-bottom: 20px;
+}
+
+.specifications_table_div, .storage_names_table_div {
+    margin-bottom: 20px;
+}
+
+#specification .is_virtual_div {
+    text-align: left;
+    line-height: 35px;
+}
+
+#specification .copy_specification,
+#specification .upload_excel {
+    margin-top: 10px;
+}
+
+#specification .storage_select h5 {
+    text-align: left;
+}
+
+#specification .storage_select select + .select2-container {
+    display: block;
+    width: 100% !important;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    text-align: left;
+}
+
+#specification table{
+    border: #ccc;
+}
+
+#specification table th,
+#specification table td {
+    font-size: 11px;
+}
+
+#specification table .delete_specification_name {
+    width: 25px;
+    cursor: pointer;
+}
+
+#specification_name_title{
+    font-size: inherit;
+    font-family: inherit;
+}

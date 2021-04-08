@@ -1,0 +1,48 @@
+.questionnaire .content {
+    padding: 50px 0 0 0;
+}
+
+.questionnaire .content .task_item {
+    margin-bottom: 40px;
+    padding-left: 25px;
+}
+
+.questionnaire .questionnaire_pic {
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.questionnaire label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.questionnaire select {
+    display: block;
+    font-size: 16px;
+    /*margin-left: 25px;*/
+}
+
+.checkbox-div {
+    text-align: left;
+}
+
+.checkbox-div label {
+    display: inline-block;
+    font-weight: normal;
+}
+
+.checkbox-div [type=checkbox] {
+    display: inline-block;
+}
+
+.questionnaire .question_done {
+    width: 100px;
+    float: right;
+    height: 40px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
