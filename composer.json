@@ -1,0 +1,11 @@
+{
+  "require": {
+    "phpoffice/phpspreadsheet": "^1.12",
+    "iillexial/php-monobank-api": "^0.2.1",
+    "irazasyed/telegram-bot-sdk": ">=3",
+    "s0d3s/tg-long-req": ">=1",
+    "serj1chen/nova-poshta-sdk-php": "2.0.*",
+    "ext-json": "*",
+    "workerman/phpsocket.io": "^1.1"
+  }
+}
