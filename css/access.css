@@ -1,0 +1,17 @@
+#accesses table {
+    margin: 0;
+}
+
+#accesses table td,
+#accesses table th {
+    font-size: 11px;
+    width: auto;
+}
+
+#accesses .page_content {
+    cursor: pointer;
+}
+
+#accesses h4{
+    margin: 10px auto 15px;
+}

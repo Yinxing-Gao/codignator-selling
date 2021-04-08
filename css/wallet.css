@@ -1,0 +1,77 @@
+.radio_label {
+    margin: 10px 0;
+    display: inline-block;
+    width: 48%;
+    line-height: 30px;
+}
+
+.radio_label input {
+    float: left;
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+#wallet_sidenav .changing_info {
+    padding: 15px;
+}
+
+#wallet_sidenav .changing_info li {
+    font-size: 11px;
+    border-bottom: none;
+}
+
+#wallets input[type=text],
+#wallets input[type=number],
+#wallets select {
+    margin-bottom: 15px;
+}
+
+#wallet_sidenav .banks,
+    /*#wallets .monobank_token,*/
+    /*#wallets .monobank_cards,*/
+    /*#wallets .monobank_info,*/
+    /*#wallets .privat_bank_info{*/
+#wallet_sidenav .monobank,
+#wallet_sidenav .privat_bank {
+    display: none;
+}
+
+#wallet_sidenav .monobank_cards table tbody tr {
+    cursor: pointer;
+}
+
+#wallet_sidenav .monobank_cards table tbody tr:hover {
+    background-color: #ddd;
+}
+
+#wallets table td,
+#wallets table th {
+    font-size: 11px;
+}
+
+#wallets table td [type=checkbox] {
+    width: 10px;
+    position: relative;
+}
+
+#wallets table td [type=checkbox]:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: -30%;
+    top: 100%;
+    z-index: 1;
+    background: #f7f7f7;
+    font-size: 11px;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+#wallets .delete_wallet {
+    cursor: pointer;
+}
+
+.wallet_sidenav_content {
+    padding: 20px
+}

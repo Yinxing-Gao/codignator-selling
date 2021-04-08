@@ -1,0 +1,269 @@
+
+#plan_fact .fact {
+    border-left: 1px solid #ddd;
+}
+
+#plan_fact .plan {
+    border-right: 1px solid #ddd;
+}
+
+#plan_fact .display_span {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f1f1f1;
+    width: 100%;
+    display: block;
+    height: 30px;
+    padding: 6px 15px;
+    text-align: left;
+}
+
+#plan_fact .storage1_names_for_plan_fact_block {
+    height: 225px;
+    overflow: auto;
+    border: 2px solid #d2d2d2;
+    padding: 5px;
+}
+
+#plan_fact .storage1_names_for_plan_fact {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+#plan_fact .storage1_names_for_plan_fact:hover {
+    background-color: #eaeaea;
+}
+
+#plan_fact .storage2_names_for_plan_fact_block {
+    height: 225px;
+    overflow: auto;
+    border: 2px solid #d2d2d2;
+    padding: 5px;
+}
+
+#plan_fact .storage2_names_for_plan_fact {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+#plan_fact .storage2_names_for_plan_fact:hover {
+    background-color: #eaeaea;
+}
+
+#plan_fact .materials1_table tbody {
+    height: 300px;
+    overflow: auto;
+    border: 1px solid #ccc;
+}
+
+
+#plan_fact .materials2_table tbody {
+    height: 300px;
+    overflow: auto;
+    border: 1px solid #ccc;
+}
+
+#plan_fact .part_th {
+    font-weight: bold;
+    background-color: #f1f1f1;
+}
+
+#plan_fact .materials_table th,
+#plan_fact .materials_table td {
+    font-size: 11px;
+    padding: 8px 6px;
+}
+
+#plan_fact .materials1_table th,
+#plan_fact .materials2_table th,
+#plan_fact .materials1_table td,
+#plan_fact .materials2_table td {
+    font-size: 11px;
+    padding: 8px 6px;
+}
+
+#plan_fact .materials1_table [name=amount],
+#plan_fact .materials2_table [name=amount] {
+    width: 50px
+}
+
+#plan_fact .materials1_table .delete_name_from_plan_fact,
+#plan_fact .materials2_table .delete_name_from_plan_fact {
+    width: 20px;
+}
+
+
+#plan_fact .workers_for_plan_fact_block {
+    height: 200px;
+    overflow: auto;
+    border: 2px solid #d2d2d2;
+    padding: 5px;
+}
+
+
+#plan_fact .workers_for_plan_fact {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+#plan_fact #workers_for_plan_fact + .select2-container {
+    display: block;
+    width: 100% !important;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+#plan_fact_company_result table tr:hover td {
+    background-color: #789fcc;
+}
+
+#plan_fact .salary_table th,
+#plan_fact .salary_table td {
+    font-size: 11px;
+    padding: 8px 6px;
+}
+
+#plan_fact .income_table th,
+#plan_fact .income_table td {
+    font-size: 11px;
+    padding: 8px 6px;
+}
+
+#plan_fact_company_result table .divider {
+    background-color: #ddd;
+}
+
+#plan_fact_company_result table .main td {
+    background-color: #a7f1a8;
+}
+
+#plan_fact_company_result table .margin td {
+    background-color: #67e16a;
+}
+
+#plan_fact input.payment,
+#plan_fact input.days_amount {
+    width: 70px;
+    height: 30px;
+    font-size: 11px;
+}
+
+#plan_fact input#date_from_plan,
+#plan_fact input#date_to_plan,
+#plan_fact input#date_from_fact,
+#plan_fact input#date_to_fact {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#plan_fact,
+#plan_fact input {
+    font-size: 11px;
+    height: 30px;
+}
+
+#plan_fact .btn {
+    height: 30px;
+    font-size: 11px;
+    float: right;
+}
+
+#plan_fact .total_operation_span {
+    float: right;
+    padding: 5px 0 0;
+    font-size: 11px;
+    vertical-align: bottom;
+    margin-right: 20px;
+    line-height: 25px;
+}
+
+#plan_fact .storage_app_info {
+    font-size: 11px;
+    float: right;
+}
+
+#plan_fact .by_plan {
+    font-size: 11px;
+    margin-bottom: 0
+}
+
+#plan_fact .by_plan input[type=checkbox] {
+    width: 10px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0 5px -10px 10px;
+}
+
+#plan_fact .transport_table th,
+#plan_fact .transport_table td,
+#plan_fact .agent_table th,
+#plan_fact .agent_table td,
+#plan_fact .other_table th,
+#plan_fact .other_table td {
+    font-size: 11px;
+    padding: 8px 6px;
+}
+
+.transport_table textarea,
+.agent_table textarea,
+.other_table textarea {
+    height: 80px;
+    resize: none;
+    width: 140px;
+}
+
+.transport_table .amount input,
+.other_table .amount input {
+    width: 70px;
+}
+
+.transport_table .date input,
+.other_table .date input {
+    width: 70px;
+    font-size: 11px;
+}
+
+.transport_table .contractor select,
+.other_table .contractor select {
+    width: 70px;
+    font-size: 11px;
+}
+
+.save_transport_operation,
+.save_other_operation {
+    cursor: pointer;
+}
+
+.delete_product_from_plan_fact,
+.delete_worker_from_plan_fact {
+    cursor: pointer;
+}
+
+.hide {
+    float: right;
+    margin: -22px 0;
+    width: 15px;
+    cursor: pointer;
+}

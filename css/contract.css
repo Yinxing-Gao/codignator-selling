@@ -1,0 +1,42 @@
+#contract_list table th,
+#contract_list table td {
+    font-size: 11px;
+}
+
+#contract_list table td .products + .select2.select2-container {
+    width: 100% !important;
+}
+
+#contract_list table td .products + .select2.select2-container > .selection > .select2-selection.select2-selection--multiple {
+    padding: 0 10px;
+}
+
+#contract_list table td .products + .select2.select2-container > .selection > .select2-selection.select2-selection--multiple > ul {
+    padding: 0 0 5px;
+    width: 95%;
+}
+
+#contract_list table td .products + .select2.select2-container .select2-search.select2-search--inline {
+    float: none;
+}
+
+#contract_list form #products + .select2.select2-container {
+    width: 100% !important;
+}
+
+#contract_list form #products + .select2.select2-container > .selection > .select2-selection.select2-selection--multiple {
+    padding: 0 10px;
+}
+
+#contract_list form #products + .select2.select2-container > .selection > .select2-selection.select2-selection--multiple > ul {
+    padding: 0 0 5px;
+    width: 95%;
+}
+
+#contract_list form #products + .select2.select2-container .select2-search.select2-search--inline {
+    float: none;
+}
+
+#contract_list table .delete_contract {
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+#login {
+    padding: 50px;
+}
+
+#login .social_button {
+    cursor: pointer;
+}
+
+#login .social_button:hover {
+    text-decoration: none;
+}
+
+#login label {
+    font-size: 14px;
+}
+
+#login input,
+#login .social_button {
+    font-size: 14px;
+    height: 40px;
+}
+
+#login .social_button {
+    padding: 8px 8px;
+}
+
+#login .btn-login {
+    font-size: 14px;
+    height: 40px;
+    background-color: green;
+    cursor: pointer;
+    /*margin-bottom: 50px;*/
+    width: 100%;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+#login .social_button {
+    font-size: 14px;
+    height: 40px;
+    cursor: pointer;
+    padding: 8px 8px;
+    background: #404DFF;
+    color: #fff;
+    text-align: center;
+}

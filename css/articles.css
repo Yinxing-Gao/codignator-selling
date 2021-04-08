@@ -1,0 +1,37 @@
+ul.jqtree-tree li.jqtree_common {
+    padding: 10px;
+    border: 1px solid #Ccc;
+}
+
+.delete_article {
+    cursor: pointer;
+}
+
+li.jqtree_common .description {
+    font-size: 11px;
+    font-style: italic;
+    margin-left: 15px;
+}
+
+#article_list table td,
+#article_list table th {
+    font-size: 11px;
+}
+
+#article_list table td input[type=checkbox] {
+    width: 10px;
+}
+
+/************************************************* templates **********************************************************/
+#article_templates table td,
+#article_templates table th {
+    font-size: 11px;
+}
+
+#article_templates table td input[type=checkbox] {
+    width: 10px;
+}
+
+#article_templates .add_articles_from_template {
+    font-size: 11px;
+}

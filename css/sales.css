@@ -1,0 +1,91 @@
+#sales h2 {
+    margin-bottom: 30px;
+}
+
+
+#sales .sales_project {
+    height: 250px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background: #c0caf9;
+    cursor: pointer;
+}
+
+#sales .sales_project:hover {
+    background: #a6b9f9
+}
+
+#sales .sales_project_body {
+    padding: 15px;
+}
+
+#sales .sales_project_body p {
+    font-size: 12px;
+}
+
+#sales .sales_project_body p.operation_p {
+    margin-top: 30px;
+}
+
+#sales .sales_project_body a {
+    font-size: 12px;
+}
+
+
+#sales .add_operation_to_project_open {
+    cursor: pointer;
+    width: 30px;
+    float: right;
+    margin-top: -3px;
+}
+
+#sales .operation_table_div {
+    padding: 40px 20px;
+}
+
+
+#sales table th,
+#sales table td {
+    font-size: 11px;
+}
+
+#sales_project_operations #panel_done {
+    display: none;
+}
+
+#sales_project_operations table td,
+#sales_project_operations table th {
+    font-size: 11px;
+}
+
+#sales_project_operations .no_operations {
+    margin-top: 35px;
+    font-size: 12px;
+}
+
+#sales_project_operations .operation_amount {
+    min-width: 100px;
+    height: 30px;
+    padding: 6px;
+    margin: 0 auto;
+}
+
+#client_sidenav .contacts_block .contact:first-child,
+#client_sidenav .contacts_block .contact:last-child {
+    margin: 0;
+}
+
+#client_sidenav .contacts_block .contact {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+    display: inline-block;
+    width: 48px;
+    position: relative;
+}
+
+#client_sidenav .contacts_block .contact img {
+    width: 100%;
+}

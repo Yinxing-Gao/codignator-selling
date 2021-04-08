@@ -1,0 +1,85 @@
+<?php
+return [
+	'applications' => 'Заявки',
+	'add app' => 'Додати заявку',
+	'my apps' => 'Мої заявки',
+	'department apps' => 'Заявки департаменту',
+	'department approved' => 'Одобрені департаменту',
+	'department payed' => 'Оплачені департаменту',
+	'to pay on TOV' => 'До оплати на ТОВ',
+	'update statuses' => 'Оновити статуси',
+	'charts' => 'Графіки',
+
+	'operations' => 'Операції',
+	'quick operations' => 'Швидкі операції',
+	'operation templates' => 'Шаблони операцій',
+	'plan-fact' => 'План факт',
+	'plan operations' => 'Плановані операції',
+	'add expense' => 'Додати витрату',
+	'add income' => 'Додати прихід',
+	'add transfer' => 'Додати переміщення',
+	'my operations' => 'Мої операції',
+	'my wallets' => 'Мої каси',
+	'department operations' => 'Операції департаменту',
+	'update data' => 'Оновити дані',
+	'credits' => 'Кредити',
+
+	'projects' => 'Проекти',
+	'project add' => 'Додати проект',
+	'specifications' => 'Спецификації',
+	'storages' => 'Склади',
+	'prices' => 'Прайси',
+	'edit prices' => 'Редагувати прайси',
+
+	'company results' => 'Зріз по компанії',
+	'P&l' => 'P&l',
+	'department wallets' => 'Каси департаменту',
+	'workers' => 'Співробітники',
+
+	'accruals' => 'Нарахування',
+
+	'calendar' => 'Календар',
+
+	"fixed costs" => "Постійні витрати",
+
+	'sales' => 'Відділ продаж',
+	'existing customers' => 'Існуючі клієнти',
+	'former customers' => 'колишні клієнти',
+	'products' => 'Продукти',
+	'leads' => 'Ліди',
+
+	'clients' => 'Робота з клієнтами',
+	'questions' => 'Запитання',
+
+	'finances' => 'Фінанси',
+	'cashflow' => 'Cashflow',
+	'p&l' => 'P&L',
+	'balance' => 'Баланс',
+
+	'production' => 'Виробництво',
+	'services' => 'Послуга',
+	'storage' => 'Склад',
+	'franchise' => 'Франшиза',
+	'company' => 'Компанія',
+	'articles' => 'Статті',
+	'contracts' => 'Договори',
+	'departments' => 'Департаменти',
+	'positions' => 'Посади',
+	'orgstructure' => 'Оргструктура',
+	'contractors' => 'Контрагенти',
+	'settings' => 'Налаштування',
+	'start' => 'Старт',
+	'info' => 'Інформація',
+	'Telegram' => 'Telegram',
+	'excel' => 'Завантаження',
+	'suggestions' => 'Ідеї та пропозиції',
+	'updates' => 'Оновлення',
+	'access' => 'Доступи',
+	'salary pay' => 'Выплатити зарплату',
+	'bugs' => 'Помилка',
+	'all bugs and suggestions' => 'Всі пропозиції і помилки',
+
+	'hello' => 'Вітаю',
+	'log out' => 'Вийти'
+
+];

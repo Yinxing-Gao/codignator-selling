@@ -1,0 +1,51 @@
+/*************************************** updates ************************************************************/
+#updates table th,
+#updates table td {
+    font-size: 11px;
+}
+
+/*************************************** suggestions ************************************************************/
+#suggestions table th,
+#suggestions table td {
+    font-size: 11px;
+}
+
+#suggestions form textarea#message {
+    height: 150px;
+}
+
+#suggestions .vote_for_suggestion {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#suggestions .delete_suggestion{
+    cursor: pointer;
+}
+
+/*************************************** bugs ************************************************************/
+#bugs table th,
+#bugs table td {
+    font-size: 11px;
+}
+
+/*************************************** all ************************************************************/
+#all_bugs_and_suggestions table th,
+#all_bugs_and_suggestions table td {
+    font-size: 11px;
+}
+
+#all_bugs_and_suggestions form textarea#message {
+    height: 150px;
+}
+
+#all_bugs_and_suggestions .vote_for_suggestion {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#all_bugs_and_suggestions .delete_suggestion{
+    cursor: pointer;
+}
